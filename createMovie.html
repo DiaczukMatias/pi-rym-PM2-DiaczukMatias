@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Movie</title>
+    <link rel="stylesheet" href="scripts/styles/createMovie.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+         
+        </ul>
+    </nav>
+    <h1>Crear Pelicula</h1>
+    <form id="movieForm">
+        <input name="title" placeholder="Title" required />
+        <input name="year" placeholder="Year" required />
+        <input name="director" placeholder="Director" required />
+        <input name="rate" placeholder="Rate" required />
+        <input name="poster" placeholder="Poster URL" required />
+        <input name="genre" placeholder="Genre" required />
+        <button type="submit">Enviar</button>
+        <button type="button" id="resetButton">Limpiar</button>
+    </form>
+    <script src="./scripts/form.js"></script>
+</body>
+</html>

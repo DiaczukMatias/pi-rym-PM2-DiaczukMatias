@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 0 4px 8px rgba(39, 201, 230, 0.932)
+}
+
+h2{
+    margin: 0.5em;
+    padding: 2em;
+    text-align: left;
+    color: aliceblue;
+}
+
+p {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.932);
+    margin-bottom: 0.5em;
+    margin: 0.5em;
+    font-size: 1.2em;
+    text-align:left;
+    padding: 1em;
+    border-bottom:  1px solid #4700ccfb;
+}
+
+.mark {
+    margin-left: 0.3em;
+}

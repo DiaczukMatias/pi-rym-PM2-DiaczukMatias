@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+h1,h2,p{
+    margin-bottom: 2em;
+    color: rgba(255, 255, 255, 0.932);
+}
+
+h1,h2{
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 0 4px 8px rgba(39, 201, 230, 0.932)
+}
+
+p {
+    margin: 2.5em;
+    font-size: 1.2em;
+    text-align:start;
+    padding: 2em;
+    border-bottom:  1px solid #4700ccfb;
+}
+

@@ -1,0 +1,105 @@
+body {
+  background-image: url("images/106826.jpg");
+    font-family: Arial, sans-serif;
+    background-color: #1a01ff;
+    margin: 0;
+    padding: 20px;
+  }
+  h1{
+    font-size: 4em;
+    text-align: center;
+    text-shadow: 0 4px 8px rgba(39, 201, 230, 0.932)
+  }
+  
+  #films-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 150px; 
+    justify-content:center; 
+  }
+  
+  .card {
+    backdrop-filter: blur(10px);
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(39, 201, 230, 0.932); 
+    width: 250px;
+    overflow: hidden;   
+    transition: transform 0.4s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .film-content {
+    padding: 10px;
+  }
+  
+  .card-title {
+
+    color: #ffffff;
+    font-size: 1.1em;
+    margin: 0.5em;
+  }
+  
+  .card-text {
+    font-size: 0.9em;
+    color: #ffffff;
+  }
+  
+  .card-genre {
+    margin: 10px 10;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .card-genre span {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8em;
+  }
+  
+  .card-rate {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #07ff28;
+  }
+  
+  .contenedorEnlaces {
+    margin-top: 2em;
+    padding: 5em;
+    display:flex;
+    justify-content: center;
+  }
+
+.PaginasExternas {
+    display: inline-block; 
+    padding: 10px 150px; 
+    font-size: 1em; 
+    color: #fff; 
+    background-color: rgba(8, 45, 63, 0.932); 
+    border-radius: 5px;
+    text-decoration:none; 
+    text-align: center; 
+    cursor: pointer; 
+    transition: background-color 0.3s;   
+    box-shadow: 0 4px 8px rgba(39, 201, 230, 0.932);
+    margin: 0.2em;
+
+}  
+.PaginasExternas:hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: rgba(1, 13, 15, 0.7); 
+}
+  
